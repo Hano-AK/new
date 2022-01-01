@@ -1,0 +1,56 @@
+                        * {
+                            margin: 0;
+                            padding: 0;
+                            box-sizing: border-box;
+                            font-family: "poppins", sans-serif;
+                        }
+                        
+                        .container {
+                            width: 100%;
+                            height: 100vh;
+                            background-color: #001660;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        
+                        form {
+                            background-color: #fff;
+                            display: flex;
+                            flex-direction: column;
+                            width: 90%;
+                            border-radius: 10px;
+                            padding: 3vw 3vh;
+                            max-width: 600px;
+                        }
+                        
+                        form h3 {
+                            color: #555;
+                            font-weight: 800;
+                            margin-bottom: 20px;
+                        }
+                        
+                        form input,
+                        form textarea {
+                            border: 0;
+                            outline: none;
+                            background-color: #F5F5F5;
+                            padding: 20px;
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                            margin-right: 0;
+                            margin-left: 0;
+                        }
+                        
+                        form button {
+                            padding: 15px;
+                            outline: none;
+                            border: 0;
+                            cursor: pointer;
+                            background-color: #ff5631;
+                            color: #FFF;
+                            font-size: 16px;
+                            width: 150px;
+                            margin: 20px auto 0;
+                            border-radius: 30px;
+                        }
